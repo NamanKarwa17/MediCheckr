@@ -1,0 +1,156 @@
+body{
+    background-color: #ffffff;
+}
+/* About */
+.about {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about-content h2 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.about-content span {
+  background-color: #0f4867;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.about-content p {
+  width: 60%;
+  text-align: justify;
+}
+
+
+
+/* about-me */
+.about-me{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+}
+.about-me h2{
+  font-weight: 800;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.about-me span{
+  background-color: #0f4867;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.about-me img{
+  width: 300px;
+  height: 300px
+}
+
+/* Responsive-website */
+/* Responsive Design */
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 10px;
+  }
+  .hero {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .hero .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero .column {
+    margin-bottom: 20px;
+  }
+  .services {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .services .row {
+    flex-direction: column;
+  }
+  .services .row .text-column {
+    order: 2;
+    padding: 0;
+  }
+  .services img {
+    width: 100%;
+    height: auto;
+  }
+  .about {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .about-me{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .about-me img{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .about p {
+    width: 300px;
+  }
+  .contact-section {
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .contact-section .text-right fieldset {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  header,
+  .hero,
+  .services,
+  .about,
+  .about-me,
+  .contact-section {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .footer-company-name {
+    text-align: center;
+  }
+  .client-hidden {
+    display: none;
+  }
+}
